@@ -1,0 +1,56 @@
+.nav{
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+    
+}
+li {
+    float: left;
+}
+a {
+    display: block;
+    margin: 0px;
+
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+ 
+  }
+ 
+
+.right:hover {
+    background: yellow;
+}
+.Script {
+    background-color: green;
+}
+body{
+    background-color: aliceblue;
+}
+.information{
+display: flex;
+position: relative;
+z-index: 15;
+top: 50%;
+left: -0%;
+justify-content: center;
+}
+.text{
+    text-align: center;
+    left: -0%;
+    margin-top: 10px;
+    color: black;
+  
+    
+}

@@ -1,0 +1,146 @@
+.nav{
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+    
+}
+li {
+    float: left;
+}
+a {
+    display: block;
+    margin: 0px;
+
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+ 
+  }
+ 
+
+.right:hover {
+    background: yellow;
+}
+.home {
+    background-color: green;
+}
+
+.background{
+    display: grid;
+    position: relative;
+    left: 7%;
+    margin-top: 30px;
+    display: grid;
+    grid-gap: 0px;
+    height: 700px;
+    width: 1050px;
+    border: 5px solid yellow;
+    background-color: white;
+}
+img {
+    height: 1010px;
+    width: auto;
+}
+
+.item1 {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-area: auto;
+    grid-gap: 1px;
+    height: 365px;
+    width: 515px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 5px solid white;
+}
+.item3{
+
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-gap: 0px;
+    border: 5px solid white;
+    height: 365px;
+    width: 516px;
+    
+  
+}
+.item2{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    justify-content: flex-end;
+    flex-direction: row;
+    border: 5px solid white;
+    height: 315px;
+    width: 1040px;
+}
+.text {
+    display: flex;
+    justify-content: center;    
+    font-family: 'Festive', cursive;
+    font-size: 28px;
+}
+.photos img {
+    height: 315px;
+    width: 1041px;
+    transition: 1s;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+  }
+ .photos img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+  }
+
+  .photos-1 img {
+    display: grid;
+    position: relative;
+  
+    left: 1px;
+    background-size: auto;
+    height: 365px;
+    width: 515px;
+    transition: 1s;
+
+  }
+  .photos-1 img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+  }
+  .photos-2 img {
+    display: grid;
+    position: relative;
+    right: -1px;
+    background-size: auto;
+    height: 365px;
+    width: 515px;
+    transition: 1s;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+  }
+  .photos-2 img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+  }
+body{
+    background-color: aliceblue;
+}
